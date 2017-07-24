@@ -15,6 +15,6 @@ class PagesControllerTest extends ControllerTestCase {
     );
 
 //    $this->assertContains('',$result); // Why is this written this way?
-	$this->assertTrue();
+	$this->assertTrue(true);
   }
 }
