@@ -9,7 +9,6 @@ class PagesControllerTest extends ControllerTestCase {
     $HomeView = new View($PagesController);
   }
 
-@ignore
   public function testHomePageContents() {
     $result = $this->testAction('/',
       array('method' => 'get', 'return' => 'contents')
